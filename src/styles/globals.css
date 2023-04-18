@@ -1,0 +1,40 @@
+:root {
+  --black: #000000;
+  --white: #f7f7f7;
+  --dark-grey: #1e1e1e;
+  --green: #00EF00;
+  --yellow: #FFEC05;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  background: var(--dark-grey);
+}
+
+ul, a {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+h1, p, a {
+  color: var(--white);
+}
+
+h1 {
+  font-size: min(6vw, 3.2rem);
+}
+
+p {
+  font-size: min(3vw, 2.2rem);
+}
