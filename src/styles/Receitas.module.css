@@ -118,7 +118,7 @@ main .image {
   font-size: min(6vw, 9.6rem);
 }
 
-.beneficiosCard .first {
+.beneficiosCard:first-child {
   border: none;
 }
 

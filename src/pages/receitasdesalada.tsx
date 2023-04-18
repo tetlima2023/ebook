@@ -1,4 +1,5 @@
 import s from'@/styles/Receitas.module.css'
+import { Check, InstagramLogo } from '@phosphor-icons/react'
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <header className={s.title}>
       <h1>DESCUBRA O SEGREDO PARA UMA
         ALIMENTAÇÃO EQUILIBRADA</h1>
-      <p className="contrast">Ebookplus
+      <p className={s.contrast}>Ebookplus
         Receitas de Salada</p>
       <p>Mais de 100 receitas deliciosas
         e nutritivas</p>
@@ -15,7 +16,7 @@ export default function Home() {
     <main className={s.main}>
       <div className={s.image}>
         <img
-          src="/images/ebook.jpeg"
+          src="/ebook.jpeg"
           width="200"
           height="260"
           />
@@ -23,30 +24,30 @@ export default function Home() {
 
       <ul>
         <li>
-          <i className="ph-bold ph-check"></i>
+        <Check size={40} color="green" weight="bold" />
           <p>Transforme
             suas refeições
             com
             110 receitas de salada</p>
         </li>
         <li>
-          <i className="ph-bold ph-check"></i>
+        <Check size={40} color="green" weight="bold" />
           <p>Receitas saudaveis e
             equilibradas</p>
         </li>
         <li>
-          <i className="ph-bold ph-check"></i>
+        <Check size={40} color="green" weight="bold" />
           <p>Saladas passo a passo para
             fazer em casa. Agora ficou
             fácil!</p>
         </li>
         <li>
-          <i className="ph-bold ph-check"></i>
+        <Check size={40} color="green" weight="bold" />
           <p>Economize preparando
             saladas em casa</p>
         </li>
         <li>
-          <i className="ph-bold ph-check"></i>
+        <Check size={40} color="green" weight="bold" />
           <p>Adicione
             mais sabor e saúde
             às
@@ -54,7 +55,7 @@ export default function Home() {
         </li>
       </ul>
     </main>
-    <div style={{marginTop: 0}} className={s.button}>
+    <div style={{marginTop: "1.5rem"}} className={s.button}>
       <button className={s.btnBuy}>Eu quero!</button>
     </div>
 
@@ -65,7 +66,7 @@ export default function Home() {
         <section
           className={s.beneficiosCard}>
           <img
-            src="/images/test.png"
+            src="/test.png"
             className="first"
             width="150"
             height="150"
@@ -77,7 +78,7 @@ export default function Home() {
         <section
           className={s.beneficiosCard}>
           <img
-            src="/images/mulher.jpg"
+            src="/mulher.jpg"
             width="150"
             height="150"
             />
@@ -88,7 +89,7 @@ export default function Home() {
         <section
           className={s.beneficiosCard}>
           <img
-            src="/images/rua.jpg"
+            src="/rua.jpg"
             width="150"
             height="150"
             />
@@ -100,7 +101,7 @@ export default function Home() {
         <section
           className={s.beneficiosCard}>
           <img
-            src="/images/salada.jpg"
+            src="/salada.jpg"
             width="150"
             height="150"
             />
@@ -113,11 +114,11 @@ export default function Home() {
     <div className={s.button}>
       <button className={s.btnBuy}>Eu quero!</button>
     </div>
-    <h1 className="test">TESTADO E APROVADO! VEJA O QUE ELES TÊM A DIZER</h1>
+    <h1 className={s.test}>TESTADO E APROVADO! VEJA O QUE ELES TÊM A DIZER</h1>
 
     <div className={s.depoimentoswrapper}>
       <div className={s.depoimentosCard}>
-        <img src="images/homem.png" width="300" height="300" alt="homem de
+        <img src="homem.png" width="300" height="300" alt="homem de
           terno"/>
         <div className={s.textos}>
           <h1>Leandro D.</h1>
@@ -130,7 +131,7 @@ export default function Home() {
       </div>
 
       <div className={s.depoimentosCard}>
-        <img src="images/mulher-cachecol.png" width="300" height="300"
+        <img src="mulher-cachecol.png" width="300" height="300"
           alt="mulher de cachecol rindo"/>
         <div className={s.textos}>
           <h1>Mariza S.</h1>
@@ -142,7 +143,7 @@ export default function Home() {
       </div>
 
       <div className={s.depoimentosCard}>
-        <img src="images/mulher.png" width="300" height="300" alt="mulher
+        <img src="mulher.png" width="300" height="300" alt="mulher
           sorrindo"/>
         <div className={s.textos}>
           <h1>Amanda E.</h1>
@@ -164,10 +165,10 @@ export default function Home() {
         <div className={s.footerText}>
           <h1>Entre em contato:</h1>
           <a href="https://www.instagram.com/ebookplusoficial/" target="_blank">
-            <p><i className="ph-bold ph-instagram-logo"></i> Ebook plus oficial</p>
+            <p><InstagramLogo size={30} weight="bold" /> Ebook plus oficial</p>
           </a>
         </div>
-        <img src="images/ebookplus.jpeg" width="400" height="400" alt="e-book plus"/>
+        <img src="ebookplus.jpeg" width="400" height="400" alt="e-book plus"/>
       </div>
     </footer>
     </>
