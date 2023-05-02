@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(fotos/dragon-scales.svg)repeat-x rgba(255,0,185,255);
+    width: 100%;
+    height: 100%;
+}
+#calculadora{
+    background: rgb(36, 28, 28);
+    border-radius: 20px;
+    margin: 40px;
+    width: 350px;
+    height: 450px;
+    position: relative;
+}
+#linhas{
+    position: absolute;
+    left: 13px;
+    top: 40px;
+    border: 1px solid red;
+}
+#resultado{
+    background: #fff;
+    font-size: 25px;
+    width: 305px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 25px;
+}
+.botoesNormais{
+    width: 67px;
+    height: 50px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px rgb(83, 77, 77);
+    background: #000;
+    color: #fff;
+}
+.botoesGrandeHorizontal{
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px #000;
+    background: #000;
+    color: #fff;
+}
+#botaoGrandeVertical{
+    width: 67px;
+    height: 150px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px #000;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    
+    top: 4px;
+}
+#ponto{
+    margin-right: 80px;
+}
+#linha1{
+
+}
+#linha2{
+    
+}
+#linha3{
+    position: absolute;
+    bottom: 70px;
+}
+#linha4{
+    position: absolute;
+    bottom: 10px;
+}

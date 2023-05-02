@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"><!--inicio container-->
+        <header><!--inicio cabeçalho-->
+          <div id="logo">
+              <h1><a href="#">Museu Nacional</a></h1>
+          </div>
+          <nav><!--inicio navegação-->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Exposições</a></li>
+                <li><a href="#">Pesquisa</a></li>
+                <li><a href="#">Acervo</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav><!--fim navegação-->
+        </header><!--fim cabeçalho-->
+        <div id="principal"><!--inicio sessao principal-->
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="fotos/museu.png">
+                </section>
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Video: Conheça o Museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58803.30098014569!2d-43.29244686874999!3d-22.90576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-PT!2sbr!4v1653710051034!5m2!1spt-PT!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Os assustadores insetos</a>
+                            </li>
+                            <li>
+                                <a href="#">O crânio de Luzia, a mulher mais aintiga do Brasil</a>
+                            </li>
+                            <li>
+                                <a href="#">Preguiça gigante e tigre-dentes-de-sabre</a>
+                            </li>
+                            <li>
+                                <a href="#">Plantas do Brasil central</a>
+                            </li>
+                            <li>
+                                <a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a>
+                            </li>
+                            <li>
+                                <a href="#">Arte com Dinossauros - Paleoarte</a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>Veja todos (65)</strong></a>
+                            </li>
+                        </ul>
+                    </article>
+                    <arcticle id="historia">
+                        <h3>200 anos de História</h3>
+                        <p>
+                            Uma instituição com mais de 200 anos de existência na cidade do Rio de Janeiro, esse é o Museu Nacional. Mais um dos projetos da família real de Portugal, construído após a sua chegada ao Brasil para a promoção da cultura no país. Conheça todos os detalhes do Museu Nacional no Rio de Janeiro. 
+                        </p>
+                        <a href="#"><strong>Leia mais!</strong></a>
+                    </arcticle>
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="fotos/depoimento.png">
+                </section>
+                <section id="visita"> <!--inicio visita-->
+                    <h4>Faça uma visita</h4>
+                    <fieldset>
+                        <legend>selecione uma data</legend>
+                        <label for="data">Data</label>
+                        <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+                        
+                        <label for="data">Quantas pessoas</label>
+                        <input class="campo" style="width: 30px;" type="text" id="quantas" value="1">
+                    </fieldset>
+                    <input class="botao" type="submit" value="verificar disponibilidade">
+                </section><!--fim visita-->
+                <section id="galeria">
+                    <h1>Galeria de fotos</h1>
+                    <a href="#">
+                        <img src="fotos/imagem1.jpg" height="93" width="93">
+                    </a>
+                    <a href="#">
+                        <img src="fotos/imagem2.jpg" height="93" width="93">
+                    </a>
+                    <a href="#">
+                        <img src="fotos/imagem3.jpg" height="93" width="93">
+                    </a>
+                    <a href="#">
+                        <img src="fotos/imagem4.jpg" height="93" width="93">
+                    </a>
+                </section>
+            </aside>
+            <footer style="clear: both;">
+                <p>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Contato</a></li>
+                </p>
+                <p>2019 <a href="#">museu Nacional - todos os direitos reservados</a></p>
+            </footer>
+        </div><!--fim sessão principal-->
+    </div><!--fim container-->
+</body>
+</html>

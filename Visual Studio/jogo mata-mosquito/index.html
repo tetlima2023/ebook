@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="fotos/favicon.ico" type="image/x-icon">
+		<link type="text/css" rel="stylesheet" href="assets/styles.css" />
+		<title>Mata Mosca</title>
+	</head>
+	<body>
+        <div id="vencedor">
+            <img id="fotoVitoria" src="fotos/game.png" />
+        </div>
+        <div>
+            <select id="opcoes">
+                <option value="#">Selecione a Dificuldade --</option>
+                <option value="facil">Fácil</option>
+                <option value="normal">Normal</option>
+                <option value="dificil">Dificil</option>
+
+            </select>
+        </div>
+        <div>
+            <button type="button" id="restart" onclick="iniciarJogo()" >Inicio do Jogo</button>
+        </div>
+        <script>
+            function iniciarJogo(){
+                let nivel = document.getElementById('opcoes').value
+                if(nivel === '#'){
+                     alert('Você precisa escolher uma dificuldade!')
+                           return false
+    }
+                window.location.href = 'mataMosquito.html?' + nivel
+}
+        </script>
+	</body>
+</html>

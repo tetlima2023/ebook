@@ -1,0 +1,58 @@
+
+/** cabeçalho **/
+#cabecalho{
+    background-color: rgb(255, 230, 0);
+    padding-bottom: 10px;
+    margin: -80px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+#cabecalho 
+#img{
+    height: 200px;
+    padding-left: 280px;
+    padding-bottom: 10px;
+    margin-top: -265px;
+    padding-top: 40px;
+    float: left;
+}
+
+#titulo{
+    color: green;
+    padding: 30px;
+}
+
+#areamenu, a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+    margin: 6px;
+    clear: both;
+}
+
+a:hover{
+    color: rgb(255, 230, 0);
+    background: #FFF;
+    margin: 5px;
+    padding: 7px;
+}
+
+#fundo{
+    background-attachment: fixed;
+
+    
+}
+
+/** aba principal**/
+#container{
+    width: 880px;
+    height: 1000px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
