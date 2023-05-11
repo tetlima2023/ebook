@@ -8,6 +8,8 @@
 
 .title .contrast {
   color: var(--yellow);
+  font-style: italic;
+  font-weight: 400;
 }
 
 .main {
@@ -15,7 +17,7 @@
   align-items: center;
   justify-content: center;
   gap: 0 3.4rem;
-  margin-top: 2.2rem;
+  margin-top: 3rem;
 }
 
 @media (max-width: 768px) { 
@@ -26,8 +28,8 @@
 
 main .image {
   background: var(--white);
-  width: 40rem;
-  height: 40rem;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -178,8 +180,8 @@ main .image {
 
 .footer {
   width: 100vw;
-  height: 100vh;
-  background: linear-gradient(to bottom, rgba(30,30,30,1), rgba(0,0,0,1) 40%);
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(30,30,30,1), rgba(0,0,0,1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,10 +199,11 @@ footer .footerWrapper {
   }
 }
 
-footer .footerText p {
+footer .footerText {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .ph-bold.ph-instagram-logo {

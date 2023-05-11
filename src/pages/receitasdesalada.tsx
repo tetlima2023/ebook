@@ -1,17 +1,16 @@
 import s from '@/styles/Receitas.module.css'
-import { Check, InstagramLogo } from '@phosphor-icons/react'
+import { Check, InstagramLogo, TelegramLogo } from '@phosphor-icons/react'
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <>
       <header className={s.title}>
-        <h1>DESCUBRA O SEGREDO PARA UMA
-          ALIMENTAÇÃO EQUILIBRADA</h1>
-        <p className={s.contrast}>Ebookplus
-          Receitas de Salada</p>
-        <p>Mais de 100 receitas deliciosas
-          e nutritivas</p>
+        <h1>O que você faz quando chega a hora do almoço ou jantar e você não tem nem ideia de comida saudavel para fazer?</h1>
+
+        <p className={s.contrast} ><span style={{ color: "white", fontStyle: "italic", fontSize: "28px", fontWeight: "lighter" }}>Agora ficou fácil!</span> Ebookplus Receitas de Salada</p>
+        <p>110 receitas de saladas incriveis e super saudaveis</p>
+        <p>Com ingredientes e passo-a-passo do modo de fazer para quem não sabe nada de cozinha!</p>
       </header>
 
       <main className={s.main}>
@@ -19,7 +18,7 @@ export default function Home() {
           <img
             src="/ebook.jpeg"
             width="200"
-            height="260"
+            height="200"
           />
         </div>
 
@@ -177,11 +176,14 @@ export default function Home() {
         <div className={s.footerWrapper}>
           <div className={s.footerText}>
             <h1>Entre em contato:</h1>
-            <a href="https://www.instagram.com/ebookplusoficial/" target="_blank">
-              <p><InstagramLogo size={30} weight="bold" /> Ebook plus oficial</p>
-            </a>
+              <a href="https://www.instagram.com/ebookplusoficial/" target="_blank">
+                <InstagramLogo size={40} weight="bold" />
+              </a>
+              <a href="https://t.me/ebookplusoficial/" target="_blank">
+                <TelegramLogo size={40} weight="bold" />
+              </a>
           </div>
-          <img src="ebookplus.jpeg" width="400" height="400" alt="e-book plus" />
+          {/* <img src="ebookplus.jpeg" width="100" height="100" alt="e-book plus" /> */}
         </div>
       </footer>
     </>

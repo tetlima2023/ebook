@@ -32,9 +32,9 @@ h1, p, a {
 }
 
 h1 {
-  font-size: min(6vw, 3.2rem);
+  font-size: min(6vw, 3.8rem);
 }
 
-p {
-  font-size: min(3vw, 2.2rem);
+p, span {
+  font-size: min(3vw, 2.8rem);
 }
