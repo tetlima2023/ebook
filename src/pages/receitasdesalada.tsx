@@ -1,5 +1,6 @@
 import s from '@/styles/Receitas.module.css'
 import { Check, InstagramLogo, TelegramLogo } from '@phosphor-icons/react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
@@ -63,6 +64,26 @@ export default function Home() {
         </Link>
       </div>
 
+      <article className={s.more}>
+        <h1>E  MAIS...</h1>
+        <div className={s.wrapperCard}>
+          <div className={s.wrapperImage}>
+            <Image src="/molhos2.png" className={s.img} width={380} height={380} alt='uma cumbuca com salada e seus ingredientes no fundo' />
+          </div>
+
+          <div className={s.wrapperText}>
+            <p>Para completar os sabores de suas refeições estamos lançando um <span style={{ color: "#FFEC05" }}>BÔNUS</span> de 10 receitas de molhos incríveis e super gostosos para suas saladas</p>
+            <p>O <span style={{ color: "#FFEC05" }}>BÔNUS</span> vem junto com seu <span style={{ color: "#FFEC05" }}>Ebookplus Receitas de Salada </span></p>
+          </div>
+        </div>
+        <div style={{ marginTop: "1.5rem" }} className={s.button}>
+        <Link href="https://pay.kiwify.com.br/7KvHFNt" target='_blank'>
+          <button className={s.btnBuy}>
+            Agora eu quero!
+          </button>
+        </Link>
+      </div>
+      </article>
 
       <article className={s.wrap}>
         <h1>O QUE VOCÊ GANHA</h1>
@@ -176,12 +197,12 @@ export default function Home() {
         <div className={s.footerWrapper}>
           <div className={s.footerText}>
             <h1>Entre em contato:</h1>
-              <a href="https://www.instagram.com/ebookplusoficial/" target="_blank">
-                <InstagramLogo size={40} weight="bold" />
-              </a>
-              <a href="https://t.me/ebookplusoficial/" target="_blank">
-                <TelegramLogo size={40} weight="bold" />
-              </a>
+            <a href="https://www.instagram.com/ebookplusoficial/" target="_blank">
+              <InstagramLogo size={40} weight="bold" />
+            </a>
+            <a href="https://t.me/ebookplusoficial/" target="_blank">
+              <TelegramLogo size={40} weight="bold" />
+            </a>
           </div>
           {/* <img src="ebookplus.jpeg" width="100" height="100" alt="e-book plus" /> */}
         </div>

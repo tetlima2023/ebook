@@ -94,6 +94,42 @@ main .image {
   }
 }
 
+.more {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.more h1 {
+  text-align: center;
+  font-size: 64px;
+}
+
+.wrapperCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 70vw;
+}
+
+.wrapperImage {
+  background: white;
+  border-radius: 50%;
+  border: 10px solid var(--yellow);
+}
+
+.img {
+  object-fit: fill;
+}
+
+.wrapperText p:first-child {
+  padding-bottom: 30px;
+}
+
 .wrap {
   margin-top: 10rem;
   display: flex;
